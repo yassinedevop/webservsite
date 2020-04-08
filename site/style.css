@@ -1,0 +1,122 @@
+body{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("processorhd.jpg");
+		height: 100vh;
+	background-size: cover;
+	background-position: center;
+	font-size: 24px;
+
+}
+
+*{
+	color: white;
+	z-index:0;
+
+}
+canvas{
+	position: absolute;
+	overflow: hidden;
+	z-index:1;
+}
+a{	
+	outline: none;
+	text-decoration: none;
+	
+}
+h1{
+  display: inline-block;
+	border: white solid;
+}
+.greenland{
+	cursor: pointer;
+	position:relative;
+	top: 4.8cm;
+	left: 65vw;
+	border: white solid;
+	margin: 0.5cm 0;
+	border-radius: 1cm;
+	vertical-align: middle;
+	line-height: 1.2cm;
+	width: 6cm;
+	height: 1.2cm;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	transition: 0.6s ease;
+	z-index: 1;
+}
+p{
+	position: relative;
+	text-align:  center;
+	top : -0.6cm;
+	vertical-align: middle;
+	line-height: 1.2cm;
+	transition: 0.6s ease;
+}
+p:hover{
+	color: black;
+}
+#old{
+	background-color : rgba(255,255,255,0.6);
+}
+@media only screen and (max-width: 1356px)  {
+	.bigdiv{
+		     left: -5cm;
+	}
+}
+@media only screen and (max-width: 1776px)  {
+	.bigdiv{
+		      transform: translateX(20vw);
+	}
+}
+@media only screen and (min-width: 1776px)  {
+	.bigdiv{
+		      transform: translateX(30vw);
+	}
+}
+.bigdiv{
+	/*background: url("electrifiying.jpg");
+	background-size: cover;
+	background-position: center;*/
+	height: 10cm;
+	width: 16cm;
+	position: relative;
+	top: -200px;/*efface un 0 et efface css de photochanger.js*/
+	transition: ease 0.6s;
+	border:white solid ;
+
+}
+.greenland:hover{
+	background-color: white;
+	color: black;
+}
+#one{
+	background: url("processorhdng.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+#two{
+	background : url("olala.jpg ");
+	background-size: cover;
+	background-position: center;
+	
+}
+#three{
+	background: url("kindle.jpg");
+	background-size: cover;
+	background-position: center;
+	
+}
+#four{
+	background : url("processorhd.jpg");
+	background-size: cover;
+	background-position: center;
+	
+}
+#five{
+	background : url("electrifiying.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+

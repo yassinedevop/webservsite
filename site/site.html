@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Serveur Web embarqué - EST -</title>
+
+        <link href="siteweb/styles.css" rel="stylesheet" type="text/css" media="screen" />
+		<link rel="stylesheet" href="siteweb/nivo.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="siteweb/jquery.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="plotly.min.js"></script>
+    </head>
+
+
+
+
+    <body>
+
+
+    	<div id="bg_black">		
+
+		
+        <div id="logo">
+				<h1 id="head1"><p >CONTROLE ET MONITORING DU SYSTEME EMBARQUE</p>
+        <small>Projet : 2ème Année Electronique Informatique Industrielle</small>
+				</div>
+			
+
+
+			<div id="wrap">
+
+				<div id="header">
+				
+				   
+	<div id="wrapper">
+				<div id="slider-wrapper">        
+					<div id="slider" class="nivoSlider">
+						<img src="siteweb/images/header.jpg"  />
+						<img src="siteweb/images/header2.jpg" />
+						<img src="siteweb/images/header3.jpg"  />
+						<img src="siteweb/images/header4.jpg"  />
+					</div>        
+				</div>
+			</div>
+			
+    
+    <script type="text/javascript" src="siteweb/lib/jquery-1.4.3.min.js"></script>
+    <script type="text/javascript" src="siteweb/lib/jquery.nivo.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+				
+				</div>
+                <div id="last_box">
+					<p>Cette page web est une démonstration d'un serveur web intégré dans un système embarqué à base du FPGA Xilinx Spartan 6. Le serveur fournit une méthode simple pour contrôler ou surveiller la platee embarquée via un navigateur Internet.</p>
+				</div>
+				<div id="column_box">
+				  <div id="column1">
+					<h2 align="center"> Contrôle des sorties </h2>
+ 
+<table >
+          <div  class="ordered">
+  <tr>
+    <td width="115">
+      <div class="glowing">
+      <label>
+<input class="read" type="checkbox" id="LED1"><span id="text1">Eteinte</span>
+</label>
+</div>
+</td>
+    <td >Sortie 1</td>
+    <td   id="led_results" class="carreau">  </td>
+  </tr>
+          </div>
+</table>
+    
+
+<table >
+          <div class="ordered">
+  <tr>
+    <td width="115">
+<div class="glowing">
+      <label>
+<input class="read" type="checkbox" id="LED2"><span id="text2">Eteinte</span>
+</label>
+</div>
+</td>
+    <td >Sortie 2</td>
+    <td   id="led1_results" class="carreau" >  </td>
+  </tr>
+
+         </div>
+</table>
+         
+          
+<table >
+          <div class="ordered">
+  <tr>
+    <td width="115"> 
+   <div class="glowing">
+      <label>
+<input class="read" type="checkbox" id="LED3"><span id="text3">Eteinte</span>
+</label>
+</div>
+</td>
+    <td >Sortie 3</td>
+    <td   id="led2_results" class="carreau">  </td>
+  </tr>
+          </div>
+</table>
+          
+           
+<table >
+
+        <div class="ordered">
+  <tr>
+    <td width="115"> 
+      <div class="glowing">
+      <label>
+<input class="read" type="checkbox" id="LED4"><span id="text4">Eteinte</span>
+</label>
+</div>
+</td>
+
+    <td >Sortie 4</td>
+    <td   id="led3_results" class="carreau" >  </td>
+  </tr>
+              </div>
+
+  </table>
+
+</div>
+
+
+
+
+
+
+
+					<div id="column2">
+
+						<h2 align="center">Monitoring des entrées TOR </h2>
+
+						<table id="input_box" align="center" >
+<table id="hour">
+          <div  class="ordered">
+  <tr>
+    <td >
+</td>
+    <td >DIP_SW 1</td>
+    <td   id="switch_results" class="carreau">  </td>
+  </tr>
+          </div>
+</table>
+    
+
+<table id="hour">
+          <div class="ordered">
+  <tr>
+    <td >
+</td>
+    <td >DIP_SW 2</td>
+    <td   id="switch1_results" class="carreau" >  </td>
+  </tr>
+
+         </div>
+</table>
+         
+          
+<table id="hour">
+          <div class="ordered">
+  <tr>
+    <td > 
+</td>
+    <td >DIP_SW 3</td>
+    <td   id="switch2_results" class="carreau">  </td>
+  </tr>
+          </div>
+</table>
+          
+           
+<table id="hour">
+
+        <div class="ordered">
+  <tr>
+    <td > 
+</td>
+
+    <td >DIP_SW 4</td>
+    <td   id="switch3_results" class="carreau" >  </td>
+  </tr>
+              </div>
+
+  </table>
+</table>
+
+</div>
+
+
+
+
+
+
+
+
+                  <div id="column3">
+                  
+						<h2 align="center">Monitoring des entrées analogiques </h2>
+						<div id="space">
+                  </div>
+                        <div id="temp_status">
+<p align="center"><div id="text_input">Température = -- °C</div></p>
+</div>			</div>
+					  <div id="line_to_x"></div>
+
+          
+				
+
+		
+    </body>
+</html>
