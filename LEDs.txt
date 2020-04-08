@@ -1,0 +1,6 @@
+*************etat des LEDs************
+LED1 est ON
+LED2 est ON
+LED3 est OFF
+LED4 est ON
+**************************************
